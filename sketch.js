@@ -24,12 +24,12 @@ if(wall.x-bullet.x<(bullet.width+wall.width)/2)
 {
   bullet.velocityX=0;
 
-  if(damage>10)
+  if(damage>100)
   {
     bullet.shapeColor=color(255,0,0);
   }
 
-  if(damage<10)
+  if(damage<100)
   {
     bullet.shapeColor=color(0,255,0);
   }
